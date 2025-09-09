@@ -1,0 +1,23 @@
+{
+  "name": "tape",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LordNikon909/tape.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LordNikon909/tape/issues"
+  },
+  "homepage": "https://github.com/LordNikon909/tape#readme",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
